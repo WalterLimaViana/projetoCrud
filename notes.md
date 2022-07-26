@@ -25,6 +25,9 @@
 - Instalar os componentes do Material usando ng add @angular/material.
 - Escolher a cor, se irá utilizar o estilo de tipogrfia do angular e moudlo de animações.Nesse projeto usaremos ambos.
 
-### Criando o header html
+### Criando o cabeçalho
 
 - Criar o component utilizando o comando ng g c components/template/header
+- Criado o cabeçalho no html e o a estilização do CSS.
+
+### Criando o rodapé
