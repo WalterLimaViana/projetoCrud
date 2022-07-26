@@ -23,4 +23,8 @@
 
 - Foi alterado o template e o styles do component no arquivo app.component.js para um um templateUrl: app.component.html e criado esse arquivo html.
 - Instalar os componentes do Material usando ng add @angular/material.
-  \_ escolher a cor, se irá utilizar o estilo de tipogrfia do angular e moudlo de animações.Nesse projeto usaremos ambos.
+- Escolher a cor, se irá utilizar o estilo de tipogrfia do angular e moudlo de animações.Nesse projeto usaremos ambos.
+
+### Criando o header html
+
+- Criar o component utilizando o comando ng g c components/template/header
