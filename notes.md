@@ -25,9 +25,24 @@
 - Instalar os componentes do Material usando ng add @angular/material.
 - Escolher a cor, se irá utilizar o estilo de tipogrfia do angular e moudlo de animações.Nesse projeto usaremos ambos.
 
+### Imports para o cabeçalho e o rodapé
+
+- No app.module.ts fazer o import { MatToolbarModule } from "@angular/material/toolbar"; e adicionar o MatToolbarModule nos imports.
+
 ### Criando o cabeçalho
 
 - Criar o component utilizando o comando ng g c components/template/header
 - Criado o cabeçalho no html e o a estilização do CSS.
 
 ### Criando o rodapé
+
+- Criar o component utilizando o comando ng g c components/template/footer
+- Criado o cabeçalho no html e o a estilização do CSS.
+
+### Criando o componente de navegação
+
+- Criar o component utilizando o comando ng g c components/template/nav
+- Realizar os seguintes imports: import { MatSidenavModule } from "@angular/material/sidenav";
+  import { MatListModule } from "@angular/material/list";
+- Adicionar o MatListModule e o MatSidenavModule aos imports do app.module.ts
+- Criado o cabeçalho no html e o a estilização do CSS.
