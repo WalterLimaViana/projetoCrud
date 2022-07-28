@@ -46,3 +46,14 @@
   import { MatListModule } from "@angular/material/list";
 - Adicionar o MatListModule e o MatSidenavModule aos imports do app.module.ts
 - Criado o cabeçalho no html e o a estilização do CSS.
+
+### Criando o componente Menu
+
+- Criar o component utilizando o comando ng g c views/home
+- Realizar o import import { MatCardModule } from "@angular/material/card"; e adcionar o MatCardModule aos imports
+- Criado o menu html e a estilização do CSS.
+- Alterado o texto Aplicação CRUD do header para Início.
+
+### Criando o comppnente product-crud
+
+- Criar o component utilizando o comando ng g c vies/product-home.\_mat-animation-noopable
