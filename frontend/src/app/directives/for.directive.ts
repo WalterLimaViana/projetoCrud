@@ -23,3 +23,5 @@ export class ForDirective implements OnInit {
     }
   }
 }
+
+//Exemplo de uma diretiva estrutural
