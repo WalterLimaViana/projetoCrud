@@ -56,4 +56,4 @@
 
 ### Criando o comppnente product-crud
 
-- Criar o component utilizando o comando ng g c vies/product-home.\_mat-animation-noopable
+- Criar o component utilizando o comando ng g c vies/product-home.
