@@ -14,6 +14,11 @@
       "id": 3,
       "name": "Laptop Dell i5",
       "price": 4500
+    },
+    {
+      "name": "Teste",
+      "price": "12.5",
+      "id": 4
     }
   ]
 }
