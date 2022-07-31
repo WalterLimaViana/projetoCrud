@@ -16,6 +16,7 @@ import { MatButtonModule } from "@angular/material/button";
 import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { HomeComponent } from "./views/home/home.component";
 import { ProductCrudComponent } from "./views/product-crud/product-crud.component";
+import { ProductReadComponent } from "./components/product/product-read/product-read.component";
 import { RedDirective } from "./directives/red.directive";
 import { ForDirective } from "./directives/for.directive";
 import { ProductCreateComponent } from "./components/product/product-create/product-create.component";
@@ -35,6 +36,7 @@ import { MatInputModule } from "@angular/material/input";
     RedDirective,
     ForDirective,
     ProductCreateComponent,
+    ProductReadComponent,
   ],
   imports: [
     BrowserModule,
