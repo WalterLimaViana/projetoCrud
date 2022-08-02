@@ -1,3 +1,4 @@
+import { ProductUpdateComponent } from "./components/product/product-update/product-update.component";
 import { LOCALE_ID, NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 
@@ -17,6 +18,7 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { HomeComponent } from "./views/home/home.component";
 import { ProductCrudComponent } from "./views/product-crud/product-crud.component";
 import { ProductReadComponent } from "./components/product/product-read/product-read.component";
+
 import { RedDirective } from "./directives/red.directive";
 import { ForDirective } from "./directives/for.directive";
 import { ProductCreateComponent } from "./components/product/product-create/product-create.component";
@@ -46,6 +48,7 @@ registerLocaleData(localePt);
     ProductCreateComponent,
     ProductReadComponent,
     ProductRead2Component,
+    ProductUpdateComponent,
   ],
   imports: [
     BrowserModule,
