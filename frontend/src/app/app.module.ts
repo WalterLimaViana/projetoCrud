@@ -18,6 +18,7 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { HomeComponent } from "./views/home/home.component";
 import { ProductCrudComponent } from "./views/product-crud/product-crud.component";
 import { ProductReadComponent } from "./components/product/product-read/product-read.component";
+import { ProductDeleteComponent } from "./components/product/product-delete/product-delete.component";
 
 import { RedDirective } from "./directives/red.directive";
 import { ForDirective } from "./directives/for.directive";
@@ -49,6 +50,7 @@ registerLocaleData(localePt);
     ProductReadComponent,
     ProductRead2Component,
     ProductUpdateComponent,
+    ProductDeleteComponent,
   ],
   imports: [
     BrowserModule,

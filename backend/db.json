@@ -3,12 +3,12 @@
     {
       "id": 1,
       "name": "Caneta Compactor Azul",
-      "price": 4.5
+      "price": "6"
     },
     {
       "id": 2,
-      "name": "Multifuncional HP",
-      "price": 360.5
+      "name": "Multifuncional HP Pavillon",
+      "price": "360"
     },
     {
       "id": 3,
@@ -17,8 +17,13 @@
     },
     {
       "name": "Teste",
-      "price": "12.5",
+      "price": "10",
       "id": 4
+    },
+    {
+      "name": "Notebook Dell i7",
+      "price": "8000.0",
+      "id": 5
     }
   ]
 }
